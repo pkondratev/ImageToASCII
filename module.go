@@ -115,6 +115,7 @@ func LoadFromStream(r io.Reader) (*ImageASCII, error) {
 
 func LoadFromFile(file_name string) (*ImageASCII, error) {
 	file, err := os.Open(file_name)
+	defer file.Close()
 	if err != nil {
 		return nil, err
 	}
