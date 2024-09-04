@@ -3,11 +3,11 @@ Golang module to convert images to ASCII art
 ## How to install
 Install:
 ```
-go get github.com/BobbyKitten/ImageToASCII
+go get github.com/pkondratev/ImageToASCII
 ```
 In code:
 ```
-import "github.com/bobbykitten/ImageToASCII"
+import "github.com/pkondratev/ImageToASCII"
 ```
 ## How to use it
 At first you need to get "ImageASCII" object using one of the next functions:  
